@@ -25,7 +25,7 @@ class SearchBar extends Component {
   render() {
     return (
       <div>
-        <Tab menu={{ pointing: true}} panes={this.state.panes} />
+        <Tab menu={{ pointing: true}} style={{"marginLeft": "20px", "marginRight": "20px"}} panes={this.state.panes} />
       </div>
     )
   }
