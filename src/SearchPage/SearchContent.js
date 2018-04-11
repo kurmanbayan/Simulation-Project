@@ -5,7 +5,7 @@ class SearchContent extends Component {
     return (
       <div className="list-group list-group-flush" style={{"marginTop": "30px"}}>
         {
-          this.props.list.map((data, index) => {
+          this.props.list[this.props.cur_page].map((data, index) => {
             return <div key={index} className="list-group-item">
               <div className="container" style={{"marginBottom": "20px", "marginTop": "20px"}}>
                 <div className="row">

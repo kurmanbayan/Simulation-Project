@@ -7,8 +7,8 @@ class RightSearchBar extends Component {
         <h4 className="ui header"> {this.props.data.header} </h4>
         {
           this.props.data.categories.map((data, index) => {
-            return <div>
-              <input key={index} type="checkbox" style={{"marginRight": "10px", "marginBottom": "5px"}}/> {data} <br />
+            return <div key={index}>
+              <input type="checkbox" style={{"marginRight": "10px", "marginBottom": "5px"}}/> {data} <br />
             </div>
           })
         }

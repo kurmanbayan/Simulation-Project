@@ -20,7 +20,7 @@ class App extends Component {
                 <div className="collapse navbar-collapse" id="navbarNav">
                   <ul className="navbar-nav">
                     <li className="nav-item active">
-                      <Link className="nav-link" to="/"> Home </Link>
+                      <Link className="nav-link" to="/"> Search </Link>
                     </li>
                     <li className="nav-item active">
                       <Link className="nav-link" to="/about"> About </Link>
